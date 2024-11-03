@@ -2,7 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 50px;
+  margin: 10px 30px;
+}
+.profile {
+  width: 300px;
 }
 
 .nav-menu {
@@ -43,12 +46,12 @@
 .nav-mob-open {
   display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .navbar {
     margin: 20px 50px;
   }
   .profile {
-    width: 50vw;
+    display: none;
   }
   .nav-connect {
     display: none;

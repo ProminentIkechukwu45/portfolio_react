@@ -93,18 +93,18 @@
   transform: scale(1.12);
   transition: 0.5s;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .about {
     gap: 80px;
     margin: 40px 60px;
     align-items: start;
   }
   .about h1 {
-    font-size: 50px;
+    font-size: 40px;
     padding: 0;
   }
   .about-title img {
-    width: 130px;
+    width: 100px;
     right: -20px;
   }
   .about-sections {
@@ -131,7 +131,7 @@
     justify-content: space-between;
   }
   .about-achievement {
-    gap: 10px;
+    margin: 0 7px;
   }
   .about-achievement h1 {
     font-size: 34px;

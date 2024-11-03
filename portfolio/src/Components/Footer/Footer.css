@@ -60,13 +60,28 @@
   transform: scale(1.1);
   transition: 0.3s;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .footer {
     margin: 50px 70px;
+  }
+  .image {
+    width: 250px;
+    margin: 10px;
   }
   .footer-top {
     flex-direction: column;
     gap: 50px;
+  }
+  .footer-top-right {
+    display: block;
+  }
+  .footer-email-input {
+    padding: 14px;
+  }
+  .footer-subscribe {
+    padding: 14px 25px;
+    width: 100px;
+    margin-top: 25px;
   }
   .footer-bottom {
     display: flex;

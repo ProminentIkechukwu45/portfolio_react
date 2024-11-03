@@ -27,7 +27,7 @@
 }
 .mywork-container img {
   box-sizing: border-box;
-  width: 419px;
+  width: 400px;
   height: 280px;
   transition: 0.3s;
   cursor: pointer;
@@ -54,7 +54,7 @@
   gap: 30px;
   transition: 0.6s;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .mywork {
     gap: 50px;
     margin: 50px 70px;
@@ -62,11 +62,11 @@
   }
   .mywork-title h1 {
     padding: 0;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
   }
   .mywork-title img {
-    width: 130px;
+    width: 100px;
     margin-right: -20px;
   }
   .mywork-container {
